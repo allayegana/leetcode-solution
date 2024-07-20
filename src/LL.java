@@ -9,6 +9,10 @@ public class LL {
         list1.add(4);
 
 
+        list1.forEach(n -> System.out.println(n));
+
+        System.out.println(list1);
+
         LinkedList<Integer> list2 = new LinkedList<>();
         list2.add(1);
         list2.add(3);
