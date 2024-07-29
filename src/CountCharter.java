@@ -6,6 +6,7 @@ public class CountCharter {
     public static void main(String[] args) {
        String word = "Allaye";
         countCharater(word);
+       // countCharater2(word);
     }
 
     private static void countCharater(String word) {
@@ -22,4 +23,6 @@ public class CountCharter {
         }
         System.out.println(map);
     }
+
+
 }
